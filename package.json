@@ -2,16 +2,18 @@
   "name": "typescript-webpack-threejs-template",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack serve",
-    "start:open": "webpack serve --open",
+    "dev": "webpack serve",
+    "dev:open": "webpack serve --open",
     "build": "webpack --mode=production",
     "lint": "eslint \"**/*.ts\""
   },
   "dependencies": {
-    "three": "~0.134.0"
+    "dat.gui": "^0.7.9",
+    "three": "^0.139.2"
   },
   "devDependencies": {
-    "@types/three": "^0.134.0",
+    "@types/dat.gui": "^0.7.7",
+    "@types/three": "^0.139.0",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",
     "eslint": "^7.32.0",
